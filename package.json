@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "polished": "^3.6.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
@@ -41,6 +42,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "playroom": "^0.21.2",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1"
   }
 }
