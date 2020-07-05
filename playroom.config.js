@@ -1,6 +1,6 @@
 module.exports = {
   components: "./src/components",
-  outputPath: "./dist/playroom",
+  outputPath: "./storybook-static/playroom",
 
   // Optional:
   title: "Store Ui Kit",

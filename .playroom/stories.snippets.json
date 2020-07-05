@@ -1,0 +1,17 @@
+[
+  {
+    "group": "Welcome",
+    "name": "to Storybook",
+    "code": "<Welcome showApp={function noRefCheck() {}} />"
+  },
+  {
+    "group": "Button",
+    "name": "Text",
+    "code": "<Button onClick={function noRefCheck() {}}>\n  Hello Button\n</Button>"
+  },
+  {
+    "group": "Button",
+    "name": "Emoji",
+    "code": "<Button onClick={function noRefCheck() {}}>\n  <span\n    role=\"img\"\n    aria-label=\"so cool\"\n  >\n    😀 😎 👍 💯\n  </span>\n</Button>"
+  }
+]
