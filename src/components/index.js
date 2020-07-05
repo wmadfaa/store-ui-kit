@@ -1,1 +1,1 @@
-export { Button, Welcome } from "@storybook/react/demo";
+export { default as Text } from "./Text/Text";

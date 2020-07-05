@@ -28,6 +28,7 @@ const STATE_COLORS = {
   focused: NEUTRAL_COLORS.black,
   error: UI_COLORS.negative,
   success: UI_COLORS.positive,
+  warning: UI_COLORS.warning,
 };
 
 export default { main: MAIN_COLORS, ui: UI_COLORS, neutral: NEUTRAL_COLORS, state: STATE_COLORS };

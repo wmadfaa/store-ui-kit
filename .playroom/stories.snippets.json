@@ -1,17 +1,22 @@
 [
   {
-    "group": "Welcome",
-    "name": "to Storybook",
-    "code": "<Welcome showApp={function noRefCheck() {}} />"
+    "group": "Components/Base/Text",
+    "name": "Standard",
+    "code": "<Text\n  category=\"body\"\n  color=\"black\"\n>\n  Text Component\n</Text>"
   },
   {
-    "group": "Button",
-    "name": "Text",
-    "code": "<Button onClick={function noRefCheck() {}}>\n  Hello Button\n</Button>"
+    "group": "Components/Base/Text",
+    "name": "Headings",
+    "code": "<>\n  <Text\n    as=\"h1\"\n    category=\"h1\"\n    color=\"black\"\n  >\n    Category H1\n  </Text>\n  <Text\n    as=\"h2\"\n    category=\"h2\"\n    color=\"black\"\n  >\n    Category H2\n  </Text>\n  <Text\n    as=\"h3\"\n    category=\"h3\"\n    color=\"black\"\n  >\n    Category H3\n  </Text>\n  <Text\n    as=\"h4\"\n    category=\"h4\"\n    color=\"black\"\n  >\n    Category H4\n  </Text>\n  <Text\n    as=\"h5\"\n    category=\"h5\"\n    color=\"black\"\n  >\n    Category H5\n  </Text>\n</>"
   },
   {
-    "group": "Button",
-    "name": "Emoji",
-    "code": "<Button onClick={function noRefCheck() {}}>\n  <span\n    role=\"img\"\n    aria-label=\"so cool\"\n  >\n    😀 😎 👍 💯\n  </span>\n</Button>"
+    "group": "Components/Base/Text",
+    "name": "Contents",
+    "code": "<>\n  <Text\n    as=\"p\"\n    category=\"body-large\"\n    color=\"black\"\n  >\n    Category body-large \n    <br />\n  </Text>\n  <Text\n    as=\"p\"\n    category=\"body\"\n    color=\"black\"\n  >\n    Category body \n    <br />\n  </Text>\n  <Text\n    as=\"label\"\n    category=\"button\"\n    color=\"black\"\n  >\n    Category button \n    <br />\n  </Text>\n  <Text\n    category=\"caption1\"\n    color=\"black\"\n  >\n    Category caption1 \n    <br />\n  </Text>\n  <Text\n    category=\"caption2\"\n    color=\"black\"\n  >\n    Category caption2 \n    <br />\n  </Text>\n  <Text\n    as=\"del\"\n    category=\"strike-large\"\n    color=\"black\"\n  >\n    Category strike-large \n    <br />\n  </Text>\n  <Text\n    as=\"del\"\n    category=\"strike-small\"\n    color=\"black\"\n  >\n    Category strike-small \n    <br />\n  </Text>\n</>"
+  },
+  {
+    "group": "Components/Base/Text",
+    "name": "Knobs",
+    "code": "<Text\n  status={undefined}\n  category=\"body\"\n  color=\"black\"\n>\n  go to the knobs tab to change my props ;)\n</Text>"
   }
 ]
